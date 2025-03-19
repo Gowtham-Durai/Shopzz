@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+   margin-top: auto;
+   background-color: #dddddd;
+
+   font-family: 'Inter';
+   padding-block: 10px;
+   padding-inline: 20px;
+   align-items: center;
+}
+
