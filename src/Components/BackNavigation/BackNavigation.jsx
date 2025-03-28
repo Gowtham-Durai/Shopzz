@@ -1,13 +1,11 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Back = () => {
+const BackNavigation = () => {
     const navigate = useNavigate();
-    const handleBack = ()=>{
-            navigate("/");
-    }
+    
   return (
-    <div style={style} onClick={handleBack}>
+    <div style={style} onClick={()=>navigate("/")}>
         <i class='bx bx-chevron-left'></i>
     </div>
   )
@@ -23,4 +21,4 @@ const style ={
     cursor:'pointer'
 
 };
-export default Back;
+export default BackNavigation;

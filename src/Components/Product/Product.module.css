@@ -1,5 +1,5 @@
-.product_container{
-    
+.product_container {
+
     width: 270px;
     height: 350px;
     border-radius: 3px;
@@ -8,24 +8,23 @@
     position: relative;
 }
 
-.product_img{
+.product_img {
     width: 270px;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #EDEDED
-    
-
 }
-.product_img img{
+
+.product_img img {
     width: 190px;
     height: 180px;
     object-fit: contain;
     mix-blend-mode: multiply;
- }
+}
 
-.product_details{
+.product_details {
     font-family: 'Roboto';
     margin-block: 10px;
     display: flex;
@@ -37,32 +36,35 @@
 }
 
 
-.product_details h2{
+.product_details h2 {
     width: 240px;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 500;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp:1;
+    -webkit-line-clamp: 1;
     line-clamp: 1;
     overflow: hidden;
 }
-.product_details h6{
+
+.product_details h6 {
     font-size: 12px;
     font-weight: 400;
     color: rgb(162, 161, 161);
 
 }
-.product_details h6::first-letter{
+
+.product_details h6::first-letter {
     text-transform: capitalize;
 }
-.price{
+
+.price {
     font-size: 14px;
     font-weight: 600;
     color: #f6501e;
 }
 
-.addBtn{
+.addBtn {
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -70,46 +72,49 @@
     font-family: 'Inter';
     gap: 7px;
 }
-.addBtn>span{
+
+.addBtn>span {
     font-size: 14px;
-    line-height:30px;
+    line-height: 30px;
     border-radius: 3px;
     background-color: rgb(243, 243, 243);
-    
+
     padding-inline: 10px;
     color: rgb(155, 155, 155);
-    
+
 }
+
 .addBtn>button {
     width: 35px;
     height: 35px;
     font-size: 20px;
     border-radius: 30px;
-    background-color:#4196ff;
+    background-color: #4196ff;
     color: white;
     border: none;
-    transition: background .1s  color .5s;
+    transition: background .1s color .5s;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.addBtn>Button:active{
+.addBtn>Button:active {
     background-color: #0073ff;
     color: white;
-    transition: background .1s  color .5s;
-    
+    transition: background .1s color .5s;
+
 }
 
-.addBtn>div{
+.addBtn>div {
     display: flex;
     gap: 10px;
     align-items: center;
 
 }
-.addBtn>div>button{
-    
+
+.addBtn>div>button {
+
     width: 40px;
     font-weight: 800;
     color: white;
@@ -119,8 +124,8 @@
 
 }
 
-.rating{
-    position:absolute;
+.rating {
+    position: absolute;
     top: 22px;
     left: 0;
     background-color: #49d53c;
@@ -128,8 +133,7 @@
     float: right;
     font-size: 11px;
     font-weight: 500;
-   padding-inline: 8px;
-   padding-block: 3px;
-   border-radius: 1px;
+    padding-inline: 8px;
+    padding-block: 3px;
+    border-radius: 1px;
 }
-
