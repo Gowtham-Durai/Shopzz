@@ -1,0 +1,119 @@
+.cartList_container {
+    display: flex;
+    height: 140px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+
+    .cartList_container__img_data {
+        display: flex;
+        gap: 20px;
+        width: 60%;
+        padding-right: 70px;
+    
+        img {
+            height: 100%;
+            aspect-ratio: 1;
+            object-fit: contain;
+        }
+        .cartList_container__img_data__product_image {
+            height: 100%;
+        }
+
+        .cartList_container__img_data__middle h4::first-letter {
+            text-transform: capitalize;
+        }
+        
+        .cartList_container__img_data__middle h4 {
+            color: #878787;
+        }
+        
+        
+    }
+
+    .cartList_container__meta_data {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div:not(:last-child){width: 20%;}
+
+
+
+
+            .cartList_container__meta_data__increment {
+                width: 100px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1px;
+
+                >div {
+                    background-color: #e3e7fa;
+                
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                
+                }
+                span {
+                    padding: 14px;
+                    font-size: 17px;
+                    font-weight: 600;
+                    background-color: #e3e7fa;
+                    color: #878787;
+                }
+                button {
+                    background-color: #e3e7fa;
+                    height: 100%;
+                    flex: 1;
+                    width: 40px;
+                    font-weight: 800;
+                    color: white;
+                    border: none;
+                    font-size: 20px
+                }
+                button:first-child {
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                }
+                button:last-child {
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+
+            }
+
+            .cartList_container__meta_data__total {
+
+                color: rgb(147, 147, 255);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .cartList_container__meta_data__rightContainer>button {
+                font-family: 'Inter';
+                color: red;
+                font-size: 30px;
+                height: 100%;
+                padding: 10px;
+                background-color: transparent;
+                border: none;
+            
+            }
+            
+      
+    }
+
+   
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+.cart_container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-inline: 40px;
+    width: 90%;
+    height: 100%;
+    font-family: 'Inter';
+    overflow-y: auto;
+}
+
+.cartLi_container {
+    height: 350px;
+    overflow-y: auto;
+
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* header section-------------------------- */
+.header {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.header h2 {
+    width: 10%;
+}
+
+.header h2:first-child {
+    width: 60%;
+}
+
+.check_details_container>div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout {
+
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #4196ff;
+    color: white;
+    border: 0;
+    padding-inline: 10px;
+    padding-block: 15px;
+    transition: background .1s color .5s;
+    font-size: 20px;
+}
+
+.checkout:hover {
+
+    background-color: #4e4ef4;
+
+}
+
+.checkout:active {
+    background-color: #8787f7;
+    color: white;
+    transition: background .1s color .5s;
+
+}
+
+.check_details_container {
+    margin: 0 auto;
+    margin-top: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px rgb(165, 165, 165);
+    padding: 20px;
+}
+
+.check_details_container input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    margin-right: 2px;
+}
